@@ -1,0 +1,19 @@
+Everything in JS happens inside an 'execution context'.
+
+2 components are there inside execution context.
+
+1)Mamory Component 2)Code Component
+(variable environment) (Thread of execution)
+====================== ===================
+Here all the variable This is the place where
+and functions stored code is executed one line
+as key value pairs. at a time.
+eg:
+key:value
+a : 1
+fn:{....}
+
+=> Javascript is a synchronous single-threaded language.
+single-threaded = it means js can execute one command at a time.
+synchronous single threaded = it means js can execute one command at a time in a specific oorder.so that means that
+it can only go to the next line once the current line has been finished executing.
